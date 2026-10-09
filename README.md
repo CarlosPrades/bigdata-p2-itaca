@@ -7,8 +7,6 @@ El mismo dashboard de análisis académico en Power BI que el Proyecto 1, pero p
 
 ## Arquitectura
 
-*Diagrama del pipeline completo. Empieza con uno provisional en el Bloque 0 y actualízalo al terminar cada bloque.*
-
 ```mermaid
 graph LR
     A[Réplica PostgreSQL de BDD de ITACA] --> B[Ingesta]
