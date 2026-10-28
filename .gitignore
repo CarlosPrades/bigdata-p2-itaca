@@ -1,3 +1,30 @@
+# Credenciales y configuración local
 .env
+.env.*
+!.env.example
+*.pem
+*.key
 
+# Datos locales y control de ingesta; conservar marcadores de carpetas
 data/**/*
+!data/**/
+!data/**/.gitkeep
+
+# Entornos virtuales y archivos generados por Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Volúmenes locales de Docker y documentación generada
+docker-volumes/
+site/
+
+# Registros de ejecución
+*.log
