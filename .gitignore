@@ -4,6 +4,8 @@
 !.env.example
 *.pem
 *.key
+.vscode/
+vscode/
 
 # Datos locales y control de ingesta; conservar marcadores de carpetas
 data/**/*
